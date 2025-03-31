@@ -20,13 +20,13 @@ These features capture both momentum and risk, which are critical in financial f
 
 ---
 
-## 🤖 ARIMA Model Insights
+## ARIMA Model Insights
 
 ARIMA is a well-known statistical model for time series analysis. However, it often struggles with volatile financial series, especially in short-term prediction. In this study, the ARIMA(1,1,1) model produced a flat forecast that failed to react to sudden price movements. This underperformance limits its usefulness in short-term trading strategies.
 
 ---
 
-## ⚡ Gradient Boosting Model Results
+## Gradient Boosting Model Results
 
 The Gradient Boosting model trained on engineered features achieved strong predictive power, with the following performance:
 
