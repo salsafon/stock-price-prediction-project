@@ -1,22 +1,13 @@
 ---
 
-## 📈 Project Summary
+## Project Summary
 
 This project compares traditional and machine learning-based time series forecasting techniques for predicting short-term stock prices. Both the ARIMA model and a Gradient Boosting Regressor (GBM) were implemented and evaluated using historical OHLCV data from Yahoo Finance.
 
 ---
 
-## 🧪 How to Run
 
-Install dependencies:
-
-```bash
-pip install yfinance pandas numpy matplotlib scikit-learn statsmodels
-then run jupyter lab
-
----
-
-## 📊 Data and Feature Engineering
+## Data and Feature Engineering
 
 Daily stock data (Open, High, Low, Close, Volume) from 2019 to 2024 was collected via the yfinance API. After preprocessing and handling missing values, new features were engineered to improve model performance:
 
@@ -47,7 +38,7 @@ This level of accuracy is considered solid, especially in financial data where n
 
 ---
 
-## 📏 ARIMA vs GBM - Comparison
+## ARIMA vs GBM - Comparison
 
 | Metric | ARIMA | Gradient Boosting |
 |--------|-------|-------------------|
@@ -59,20 +50,20 @@ GBM significantly outperformed ARIMA in all metrics. While ARIMA may track long-
 
 ---
 
-## 💡 Strategic Recommendation
+## Strategic Recommendation
 
 For short-term price forecasting, **Gradient Boosting** offers a more dynamic and reliable approach. Given its superior performance and flexibility, it is a stronger candidate for deployment in data-driven trading systems.
 
 ---
 
-## 🚀 Next Steps
+## Next Steps
 
 - Incorporate more stocks and macroeconomic indicators  
 - Tune hyperparameters using tools like GridSearchCV or Optuna  
 - Test other models like XGBoost, LightGBM, or LSTM  
 - Deploy the best model into a real-time trading dashboard
 
-## 🔬 Engineered Features
+## Engineered Features
 
 | Feature         | Description                            |
 |----------------|----------------------------------------|
